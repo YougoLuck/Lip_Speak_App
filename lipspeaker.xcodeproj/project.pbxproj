@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8B379E123A68CA3003D8CD9 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B379E023A68CA3003D8CD9 /* TestVC.m */; };
+		A8B379E423A73B61003D8CD9 /* TTSMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B379E323A73B61003D8CD9 /* TTSMgr.m */; };
+		A8BBB37A237E79C60055C2AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB379237E79C60055C2AC /* AppDelegate.m */; };
+		A8BBB382237E79C80055C2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BBB381237E79C80055C2AC /* Assets.xcassets */; };
+		A8BBB385237E79C80055C2AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BBB383237E79C80055C2AC /* LaunchScreen.storyboard */; };
+		A8BBB388237E79C80055C2AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB387237E79C80055C2AC /* main.m */; };
+		A8BBB391237E7A6A0055C2AC /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB390237E7A690055C2AC /* HomeVC.m */; };
+		A8C9AF2B237EF049001C15EF /* CollectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C9AF2A237EF049001C15EF /* CollectVC.m */; };
+		A8C9AF2F237F0368001C15EF /* CaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C9AF2E237F0368001C15EF /* CaptureSession.m */; };
+		A8C9AF36237FB892001C15EF /* YRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C9AF35237FB892001C15EF /* YRecorder.m */; };
+		A8C9AF3A23810DE9001C15EF /* YPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C9AF3923810DE9001C15EF /* YPreviewView.m */; };
+		A8C9AF3D2381656E001C15EF /* FileMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C9AF3C2381656E001C15EF /* FileMgr.m */; };
+		A8C9AF402382CBA1001C15EF /* UploadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C9AF3F2382CBA1001C15EF /* UploadVC.m */; };
+		A8C9AF432384FB97001C15EF /* NetworkMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C9AF422384FB97001C15EF /* NetworkMgr.m */; };
+		B0FE2D967461AAB584D6490B /* Pods_lipspeaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC401916C5B2116EF8A91AF8 /* Pods_lipspeaker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A97235DD7AA867BD511C047 /* Pods-lipspeaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lipspeaker.debug.xcconfig"; path = "Target Support Files/Pods-lipspeaker/Pods-lipspeaker.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B379DF23A68CA3003D8CD9 /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		A8B379E023A68CA3003D8CD9 /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		A8B379E223A73B61003D8CD9 /* TTSMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSMgr.h; sourceTree = "<group>"; };
+		A8B379E323A73B61003D8CD9 /* TTSMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSMgr.m; sourceTree = "<group>"; };
+		A8BBB375237E79C60055C2AC /* lipspeaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lipspeaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BBB378237E79C60055C2AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8BBB379237E79C60055C2AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8BBB381237E79C80055C2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BBB384237E79C80055C2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8BBB386237E79C80055C2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BBB387237E79C80055C2AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8BBB38F237E7A690055C2AC /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		A8BBB390237E7A690055C2AC /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		A8C9AF29237EF049001C15EF /* CollectVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectVC.h; sourceTree = "<group>"; };
+		A8C9AF2A237EF049001C15EF /* CollectVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectVC.m; sourceTree = "<group>"; };
+		A8C9AF2D237F0368001C15EF /* CaptureSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureSession.h; sourceTree = "<group>"; };
+		A8C9AF2E237F0368001C15EF /* CaptureSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureSession.m; sourceTree = "<group>"; };
+		A8C9AF34237FB892001C15EF /* YRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRecorder.h; sourceTree = "<group>"; };
+		A8C9AF35237FB892001C15EF /* YRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRecorder.m; sourceTree = "<group>"; };
+		A8C9AF3823810DE9001C15EF /* YPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPreviewView.h; sourceTree = "<group>"; };
+		A8C9AF3923810DE9001C15EF /* YPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPreviewView.m; sourceTree = "<group>"; };
+		A8C9AF3B2381656E001C15EF /* FileMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileMgr.h; sourceTree = "<group>"; };
+		A8C9AF3C2381656E001C15EF /* FileMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileMgr.m; sourceTree = "<group>"; };
+		A8C9AF3E2382CBA1001C15EF /* UploadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadVC.h; sourceTree = "<group>"; };
+		A8C9AF3F2382CBA1001C15EF /* UploadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadVC.m; sourceTree = "<group>"; };
+		A8C9AF412384FB97001C15EF /* NetworkMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkMgr.h; sourceTree = "<group>"; };
+		A8C9AF422384FB97001C15EF /* NetworkMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkMgr.m; sourceTree = "<group>"; };
+		AC401916C5B2116EF8A91AF8 /* Pods_lipspeaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lipspeaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EBF33A29CA16528A3E2E39 /* Pods-lipspeaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lipspeaker.release.xcconfig"; path = "Target Support Files/Pods-lipspeaker/Pods-lipspeaker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BBB372237E79C60055C2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FE2D967461AAB584D6490B /* Pods_lipspeaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E27D1550DCB9A6C2FBCC010 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A97235DD7AA867BD511C047 /* Pods-lipspeaker.debug.xcconfig */,
+				C9EBF33A29CA16528A3E2E39 /* Pods-lipspeaker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99FCAF95D09EF856B013FC66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC401916C5B2116EF8A91AF8 /* Pods_lipspeaker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8BBB36C237E79C60055C2AC = {
+			isa = PBXGroup;
+			children = (
+				A8BBB377237E79C60055C2AC /* lipspeaker */,
+				A8BBB376237E79C60055C2AC /* Products */,
+				2E27D1550DCB9A6C2FBCC010 /* Pods */,
+				99FCAF95D09EF856B013FC66 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BBB376237E79C60055C2AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BBB375237E79C60055C2AC /* lipspeaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BBB377237E79C60055C2AC /* lipspeaker */ = {
+			isa = PBXGroup;
+			children = (
+				A8C9AF2C237F033D001C15EF /* Tools */,
+				A8BBB38E237E7A480055C2AC /* ViewController */,
+				A8C9AF37238109E0001C15EF /* view */,
+				A8BBB378237E79C60055C2AC /* AppDelegate.h */,
+				A8BBB379237E79C60055C2AC /* AppDelegate.m */,
+				A8BBB381237E79C80055C2AC /* Assets.xcassets */,
+				A8BBB383237E79C80055C2AC /* LaunchScreen.storyboard */,
+				A8BBB386237E79C80055C2AC /* Info.plist */,
+				A8BBB387237E79C80055C2AC /* main.m */,
+			);
+			path = lipspeaker;
+			sourceTree = "<group>";
+		};
+		A8BBB38E237E7A480055C2AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8BBB38F237E7A690055C2AC /* HomeVC.h */,
+				A8BBB390237E7A690055C2AC /* HomeVC.m */,
+				A8C9AF29237EF049001C15EF /* CollectVC.h */,
+				A8C9AF2A237EF049001C15EF /* CollectVC.m */,
+				A8C9AF3E2382CBA1001C15EF /* UploadVC.h */,
+				A8C9AF3F2382CBA1001C15EF /* UploadVC.m */,
+				A8B379DF23A68CA3003D8CD9 /* TestVC.h */,
+				A8B379E023A68CA3003D8CD9 /* TestVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8C9AF2C237F033D001C15EF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A8B379E223A73B61003D8CD9 /* TTSMgr.h */,
+				A8B379E323A73B61003D8CD9 /* TTSMgr.m */,
+				A8C9AF2D237F0368001C15EF /* CaptureSession.h */,
+				A8C9AF2E237F0368001C15EF /* CaptureSession.m */,
+				A8C9AF34237FB892001C15EF /* YRecorder.h */,
+				A8C9AF35237FB892001C15EF /* YRecorder.m */,
+				A8C9AF3B2381656E001C15EF /* FileMgr.h */,
+				A8C9AF3C2381656E001C15EF /* FileMgr.m */,
+				A8C9AF412384FB97001C15EF /* NetworkMgr.h */,
+				A8C9AF422384FB97001C15EF /* NetworkMgr.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A8C9AF37238109E0001C15EF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A8C9AF3823810DE9001C15EF /* YPreviewView.h */,
+				A8C9AF3923810DE9001C15EF /* YPreviewView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BBB374237E79C60055C2AC /* lipspeaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BBB38B237E79C80055C2AC /* Build configuration list for PBXNativeTarget "lipspeaker" */;
+			buildPhases = (
+				361B7D281E4FB2BAA50B27D5 /* [CP] Check Pods Manifest.lock */,
+				A8BBB371237E79C60055C2AC /* Sources */,
+				A8BBB372237E79C60055C2AC /* Frameworks */,
+				A8BBB373237E79C60055C2AC /* Resources */,
+				C350CFD4C5A988D74EC9D20C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lipspeaker;
+			productName = lipspeaker;
+			productReference = A8BBB375237E79C60055C2AC /* lipspeaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BBB36D237E79C60055C2AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Youmaru;
+				TargetAttributes = {
+					A8BBB374237E79C60055C2AC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = A8BBB370237E79C60055C2AC /* Build configuration list for PBXProject "lipspeaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BBB36C237E79C60055C2AC;
+			productRefGroup = A8BBB376237E79C60055C2AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BBB374237E79C60055C2AC /* lipspeaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BBB373237E79C60055C2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BBB385237E79C80055C2AC /* LaunchScreen.storyboard in Resources */,
+				A8BBB382237E79C80055C2AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		361B7D281E4FB2BAA50B27D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lipspeaker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C350CFD4C5A988D74EC9D20C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lipspeaker/Pods-lipspeaker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lipspeaker/Pods-lipspeaker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lipspeaker/Pods-lipspeaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BBB371237E79C60055C2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B379E423A73B61003D8CD9 /* TTSMgr.m in Sources */,
+				A8BBB391237E7A6A0055C2AC /* HomeVC.m in Sources */,
+				A8C9AF3A23810DE9001C15EF /* YPreviewView.m in Sources */,
+				A8C9AF3D2381656E001C15EF /* FileMgr.m in Sources */,
+				A8B379E123A68CA3003D8CD9 /* TestVC.m in Sources */,
+				A8C9AF36237FB892001C15EF /* YRecorder.m in Sources */,
+				A8C9AF2B237EF049001C15EF /* CollectVC.m in Sources */,
+				A8C9AF2F237F0368001C15EF /* CaptureSession.m in Sources */,
+				A8BBB388237E79C80055C2AC /* main.m in Sources */,
+				A8C9AF432384FB97001C15EF /* NetworkMgr.m in Sources */,
+				A8C9AF402382CBA1001C15EF /* UploadVC.m in Sources */,
+				A8BBB37A237E79C60055C2AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8BBB383237E79C80055C2AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BBB384237E79C80055C2AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BBB389237E79C80055C2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8BBB38A237E79C80055C2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BBB38C237E79C80055C2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A97235DD7AA867BD511C047 /* Pods-lipspeaker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJ4DND5XWY;
+				INFOPLIST_FILE = lipspeaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Youmaru.lipspeaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8BBB38D237E79C80055C2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EBF33A29CA16528A3E2E39 /* Pods-lipspeaker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJ4DND5XWY;
+				INFOPLIST_FILE = lipspeaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Youmaru.lipspeaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BBB370237E79C60055C2AC /* Build configuration list for PBXProject "lipspeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BBB389237E79C80055C2AC /* Debug */,
+				A8BBB38A237E79C80055C2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BBB38B237E79C80055C2AC /* Build configuration list for PBXNativeTarget "lipspeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BBB38C237E79C80055C2AC /* Debug */,
+				A8BBB38D237E79C80055C2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BBB36D237E79C60055C2AC /* Project object */;
+}
